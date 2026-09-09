@@ -1,0 +1,7 @@
+from maxrubika import Client
+
+session = "هکر"
+
+app = Client (session)
+
+print(app.get_me())
